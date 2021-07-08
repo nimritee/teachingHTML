@@ -4,10 +4,11 @@
 <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    <h3>CSS Overflow Wrap</h3>
-    <p>The CSS overflow-wrap property is used to define the conditions in which the browser can break a line of text onto many lines. If we do not implement this property, a string of text that is too long to fit inside the container will flow outside the container as the text would not break and lead to overflow.</p>
-    <p class="wrap">This is sample text. <strong id="ex1">ThisismoremoremoresampletextThisismoremoremoresampletext. This is.</strong> This is more sample text. This is more sample text.</p>
-    <p class="wrap">This is sample text. <strong id="ex2">ThisismoremoremoresampletextThisismoremoremoresampletext. This is.</strong> This is more sample text. This is more sample text.</p>
-    <p class="wrap">This is sample text. <strong id="ex3">ThisismoremoremoresampletextThisismoremoremoresampletext. This is.</strong> This is more sample text. This is more sample text.</p>
+    <div class="overflow-clip">This enables that the EXTTTTTTRRRRRRRRRRRRRAAAAAAASSSSSSSSAAAAAAAAAAAAAAAA text will be clipped. 
+        To understand this, set 'text-overflow:ellipsis' or  remove 'overflow-wrap: normal'
+    </div>
+    <div class="overflow-ellipsis">Note, that the EXTTTTTTRRRRRRRRRRRRRAAAASAAASSSAAAAAAAAAAAAAAAA Texts will be shortened 
+        and appended with '...' & the extra content is not shown
+    </div>
 </body>
 </html>
