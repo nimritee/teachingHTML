@@ -1,6 +1,14 @@
-.word {
-    border: 1px solid #333333;
-    width: 100px;
-    font-size: 250%;
+.visible {
+    width: 250px;
+    height: 80px;
+    color:burlywood;
+    background-color: red;
+    font-family: Arial;
+    overflow:visible;
+  } 
+  .default {
+    width:250px;
+    height: 100px;
+    background-color: blue;
+    font-family: Arial;
   }
-    
