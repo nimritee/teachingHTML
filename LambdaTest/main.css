@@ -1,15 +1,21 @@
 
-#ex1 {
-    width: 400px;
-    height: 200px;
-    overflow-x: hidden;
-    overflow-y: scroll;
-  }
-  
-  #ex2 {
-    background-color: #EEEEEE;
-    box-sizing: border-box;
-    width: 400px;
-    padding: 30px;
-    border: 1px solid #000000;
-  }
+.wrap {
+    width: 200px;
+    margin: 5px;
+    background: pink;
+ }
+ 
+ #ex1 {
+   white-space: normal;
+   overflow-wrap: normal;
+ }
+ 
+ #ex2 {
+   white-space: normal;
+   overflow-wrap: anywhere;
+ }
+ 
+ #ex3 {
+   white-space: normal;
+   overflow-wrap: break-word;
+ }
