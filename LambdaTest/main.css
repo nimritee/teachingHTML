@@ -1,13 +1,14 @@
-.example1 {
-    background-color: pink;
-    width: 165px;
-    height: 120px;
-    overflow: auto;
+#ex1 {
+    width: 400px;
+    height: 200px;
+    overflow-x: scroll;
+    overflow-y: hidden;
   }
   
-  .example2 {
-    background-color: pink;
-    width: 165px;
-    height: 150px;
-    overflow: auto;
+  #ex2 {
+    background-color: #EEEEEE;
+    box-sizing: border-box;
+    width: 400px;
+    padding: 30px;
+    border: 1px solid #000000;
   }
